@@ -1,24 +1,31 @@
-# cute portfolio
+# Julyan's Portfolio 🎀
 
-Make me a girly and cute portfolio for myself, website portfolio. be aesthetic and use a wireframe or something that is able to load up the animations when I paste the code to vscode. Be creative and cute
+A girly, aesthetic personal portfolio site — built with React, TanStack Start/Router, and Tailwind CSS.
 
-This project was built with [Lovable](https://lovable.dev).
+Scaffolded with [Lovable](https://lovable.dev) and developed further locally.
 
-## Build with Lovable
+## Tech Stack
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/e4ba2326-fbdd-4f85-97ef-926e2f42ae3d).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+- [React 19](https://react.dev) + [TanStack Start](https://tanstack.com/start) / [TanStack Router](https://tanstack.com/router)
+- [Tailwind CSS](https://tailwindcss.com) with [shadcn/ui](https://ui.shadcn.com) + [Radix UI](https://www.radix-ui.com) primitives
+- [Vite](https://vitejs.dev)
+- TypeScript
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
 git clone <this-repository-url>
 cd <repository-name>
 npm i
 npm run dev
+```
+
+Other scripts:
+
+```sh
+npm run build     # production build
+npm run preview   # preview the production build
+npm run lint      # lint the codebase
 ```
